@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* css document */
+body{
+	background-color:#f6f5f5;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+section{
+	width: 100%;
+	height: 95vh;
+	background-image: url("bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li a{
+	margin: 30px;
+	font-family: myriad pro regular;
+	color: #505050;
+	font-size: 20px;
+	font-weight: 700;
+}
+.logo{
+	font-family: RoadTest;
+	color: #000000;
+	font-size: 22px;
+}
+
+.active{
+	font-weight: bold;
+	color: #2d2a2a;
+}
+.text-container p:nth-child(1){
+	font-family: RoadTest;
+	font-weight: bold;
+	color: #6d6d6d;
+	font-size: 30px;
+}
+.text-container p:nth-child(2){
+	font-family: myriad pro regular;
+	font-weight: bold;
+	letter-spacing: px;
+	color: #1a1a1a;
+	font-size: 50px;
+}
+
+.text-container p{
+	line-height: 0px;
+	margin: 45px 0px 25px;
+}
+.text-container{
+	position: absolute;
+	left: 13%;
+	top: 42%;
+	transform: translate(-13%, -42%);
+}
+.text-container button{
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	margin: 0px 10px;
+}
+
+.down-cv{
+	background-color: #0b0b0b;
+	color: #ffffff;
+	border: none;
+}
+button:active{
+	transform: scale(1.2);
+}
+.model{
+	height: 450px;
+	position: absolute;
+	bottom: 0px;
+	left: 80%;
+	transform: translateX(-70%);
+} 
+
+.text-pendidikan{
+	font-family: RoadTest;
+	font-weight: bold;
+	color: #6d6d6d;
+	font-size: 30px;
+	margin: 240px 200px 40px;
+	line-height: 5px;
+}
+
+.text-about{
+	font-family: RoadTest;
+	font-weight: bold;
+	color: #6d6d6d;
+	font-size: 30px;
+	margin: 200px 200px 40px;
+	line-height: 20px;
+}
+.jadwal{	
+	font-family: myriad pro regular;
+	color: #6d6d6d;
+	font-size: 50px;
+	margin: 50px 300px 40px;
+}
+.text-aktivitas{
+	font-family: RoadTest;
+	color: #6d6d6d;
+	font-size: 20px;
+	margin: 160px 200px 40px;
+	line-height: 30px;
+}
+.instagram{
+	position: absolute;
+	height: 50px;
+	bottom: 0px;
+	top: 40%;
+	left: 45%;
+	transform: translateX(-70%);
+}
+.linked{
+	position: absolute;
+	height: 57px;
+	bottom: 0px;
+	top: 39%;
+	left: 50%;
+	transform: translateX(-70%);
+}
+.wa{
+	position: absolute;
+	height: 50px;
+	bottom: 0px;
+	top: 40%;
+	left: 55%;
+	transform: translateX(-70%);
+}
